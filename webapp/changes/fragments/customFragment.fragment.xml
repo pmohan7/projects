@@ -1,0 +1,19 @@
+<!-- Use stable and unique IDs!-->
+<core:FragmentDefinition xmlns:core='sap.ui.core' xmlns='sap.m'>
+	<!--  add your xml here -->
+	 <!-- <RadioButtonGroup id="rbg1" columns="3"  select=".extension.customer.zehsm.task.defs1.var1.customController.onSelectRadio" >
+			<RadioButton id="RB1-1" text="Corrective"  />
+			<RadioButton id="RB1-2" text="Preventive" />
+			<RadioButton id="RB1-3" text="Neither" />
+	 </RadioButtonGroup> -->
+	 <!-- <Link id="link"
+			text="Recommendations"
+			press=".extension.customer.zehsm.task.defs1.var1.customController.handleLinkPress" >
+     </Link>
+	 <Input
+			id="Inp1"
+			showSuggestion="true"
+			showValueHelp="false"
+			fieldWidth="200px">
+	 </Input> -->
+</core:FragmentDefinition>

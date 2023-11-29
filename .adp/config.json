@@ -1,0 +1,11 @@
+{
+  "componentname": "ehs.fnd.task.definitions1",
+  "safeMode": false,
+  "appvariant": "zehsm.task.defs1.var1",
+  "layer": "CUSTOMER_BASE",
+  "sourceSystem": "saperp",
+  "isOVPApp": false,
+  "isFioriElement": true,
+  "environment": "ABAP",
+  "ui5Version": "1.96.6"
+}

@@ -1,0 +1,40 @@
+{
+	"fileName": "id_1691819225086_234_renameGroup",
+	"fileType": "change",
+	"changeType": "renameGroup",
+	"moduleName": "",
+	"reference": "customer.zehsm.task.defs1.var1",
+	"packageName": "$TMP",
+	"content": {
+		"originalControlType": "sap.ui.comp.smartform.Group"
+	},
+	"selector": {
+		"id": "ehs.fnd.task.definitions1::sap.suite.ui.generic.template.ObjectPage.view.Details::C_EHSSimpleTaskDefinition--AssigneeAssignment::FormGroup",
+		"idIsLocal": false
+	},
+	"layer": "CUSTOMER_BASE",
+	"texts": {
+		"groupLabel": {
+			"value": " ",
+			"type": "XFLD"
+		}
+	},
+	"namespace": "apps/ehs.fnd.task.definitions1/changes/",
+	"projectId": "customer.zehsm.task.defs1.var1",
+	"creation": "2023-08-12T05:47:05.802Z",
+	"originalLanguage": "EN",
+	"support": {
+		"generator": "sap.ui.rta.command",
+		"service": "",
+		"user": "",
+		"sapui5Version": "1.96.5",
+		"sourceChangeFileName": "",
+		"compositeCommand": "",
+		"command": "rename"
+	},
+	"oDataInformation": {},
+	"dependentSelector": {},
+	"jsOnly": false,
+	"variantReference": "",
+	"appDescriptorChange": false
+}

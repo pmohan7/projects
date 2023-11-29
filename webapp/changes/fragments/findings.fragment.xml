@@ -1,0 +1,51 @@
+<core:FragmentDefinition xmlns:core='sap.ui.core' xmlns='sap.m'  >
+<TableSelectDialog 
+	id="myDialog1"
+    title="Findings"
+   	items="{
+			path : 'rData>/results',
+			sorter : {
+				path : 'ID',
+				descending : false
+			}
+		}"
+        search=".handleSearch1"
+		confirm=".handleClose1"
+        rememberSelections="true"
+        >
+   <columns>
+   <!-- <Column width="1em">
+   <Text text="Select"></Text>
+   </Column> -->
+   <Column width="2em">
+   <Text text="ID"></Text>
+   </Column>
+   <Column width="12em">
+   <Text text="Description"></Text>
+   </Column>
+   <!-- <Column>
+   <Text text="Recommendation"></Text>
+   </Column>
+   <Column width="12em">
+   <Text text="Responsible Manager"></Text>
+   </Column>
+   <Column width="12em">
+   <Text text="Inv Step Description"></Text>
+   </Column> -->
+   </columns>
+   <items>
+   <ColumnListItem type="Active" press="onItemPress">
+   <cells>
+   <!-- <RadioButton  selected="{rData>selected}"  /> -->
+   <Text text="{rData>FindingID}"></Text>
+   <Text text="{rData>FindingDescText}"></Text>
+   <!-- <Text text="{rData>RecommendationText}"></Text>
+   <Text text="{rData>RecommendationManager}"></Text>
+   <Text text="{rData>InvestigationStepText}"></Text> -->
+   </cells>
+   </ColumnListItem>
+   </items>
+   </TableSelectDialog>
+    
+   
+</core:FragmentDefinition>

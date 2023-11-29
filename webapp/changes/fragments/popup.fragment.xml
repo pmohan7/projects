@@ -1,0 +1,55 @@
+<core:FragmentDefinition xmlns:core='sap.ui.core' xmlns='sap.m'  >
+<TableSelectDialog 
+	id="myDialog"
+    title="Assign Recommendation"
+   	items="{
+			path : 'rData>/results',
+			sorter : {
+				path : 'Investigation',
+				descending : false
+			}
+		}"
+        search=".handleSearch"
+		confirm=".handleClose"
+        rememberSelections="true"
+        multiSelect="false"
+        >
+   <columns>
+   <Column width="15em">
+   <Text text="Select"></Text>
+   <Button text="Unselect Recommendation" width="250px" press=".onUnselectReccommendation" type="Emphasized"/>
+   </Column>
+   <Column width="12em">
+   <Text text="Linked"></Text>
+   </Column>
+   <Column width="12em">
+   <Text text="Investigation"></Text>
+   </Column>
+   <Column width="12em">
+   <Text text="Due Date"></Text>
+   </Column>
+   <Column>
+   <Text text="Recommendation"></Text>
+   </Column>
+   <Column width="12em">
+   <Text text="Responsible Manager"></Text>
+   </Column>
+   <Column width="12em">
+   <Text text="Inv Step Description"></Text>
+   </Column>
+   </columns>
+   <items>
+   <ColumnListItem type="Active" press="onItemPress">
+   <cells>
+   <RadioButton  selected="{rData>selected}"  />
+   <core:Icon src="{rData>BeingUsedCalced}" class="size2" ></core:Icon>
+   <Text text="{rData>InvestigationStepCategoryText}"></Text>
+   <Text text="{rData>RecommendationDueDate2}"></Text>
+   <Text text="{rData>RecommendationText}"></Text>
+   <Text text="{rData>RecommendationManager}"></Text>
+   <Text text="{rData>InvestigationStepText}"></Text>
+   </cells>
+   </ColumnListItem>
+   </items>
+   </TableSelectDialog>
+</core:FragmentDefinition>

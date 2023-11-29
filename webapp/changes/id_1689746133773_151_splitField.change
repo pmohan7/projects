@@ -1,0 +1,54 @@
+{
+	"fileName": "id_1689746133773_151_splitField",
+	"fileType": "change",
+	"changeType": "splitField",
+	"moduleName": "",
+	"reference": "customer.zehsm.task.defs1.var1",
+	"packageName": "$TMP",
+	"content": {
+		"newElementIds": [
+			"ehs.fnd.task.definitions1::sap.suite.ui.generic.template.ObjectPage.view.Details::C_EHSSimpleTaskDefinition--id-1689746133757-149"
+		],
+		"sourceSelector": {
+			"id": "ehs.fnd.task.definitions1::sap.suite.ui.generic.template.ObjectPage.view.Details::C_EHSSimpleTaskDefinition--ActionSchedule::zzact_subtype::GroupElement",
+			"idIsLocal": false
+		},
+		"parentSelector": {
+			"id": "ehs.fnd.task.definitions1::sap.suite.ui.generic.template.ObjectPage.view.Details::C_EHSSimpleTaskDefinition--ActionSchedule::FormGroup",
+			"idIsLocal": false
+		}
+	},
+	"selector": {
+		"id": "ehs.fnd.task.definitions1::sap.suite.ui.generic.template.ObjectPage.view.Details::C_EHSSimpleTaskDefinition--ActionInfo::Form",
+		"idIsLocal": false
+	},
+	"layer": "CUSTOMER_BASE",
+	"texts": {},
+	"namespace": "apps/ehs.fnd.task.definitions1/changes/",
+	"projectId": "customer.zehsm.task.defs1.var1",
+	"creation": "2023-07-19T05:55:35.250Z",
+	"originalLanguage": "EN",
+	"support": {
+		"generator": "sap.ui.rta.command",
+		"service": "",
+		"user": "",
+		"sapui5Version": "1.96.5",
+		"sourceChangeFileName": "",
+		"compositeCommand": "",
+		"command": "split"
+	},
+	"oDataInformation": {},
+	"dependentSelector": {
+		"sourceControl": {
+			"id": "ehs.fnd.task.definitions1::sap.suite.ui.generic.template.ObjectPage.view.Details::C_EHSSimpleTaskDefinition--ActionSchedule::zzact_subtype::GroupElement",
+			"idIsLocal": false
+		},
+		"parent": {
+			"id": "ehs.fnd.task.definitions1::sap.suite.ui.generic.template.ObjectPage.view.Details::C_EHSSimpleTaskDefinition--ActionSchedule::FormGroup",
+			"idIsLocal": false
+		}
+	},
+	"jsOnly": false,
+	"variantReference": "",
+	"appDescriptorChange": false
+}

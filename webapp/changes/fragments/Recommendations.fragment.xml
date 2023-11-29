@@ -1,0 +1,9 @@
+<!-- Use stable and unique IDs!-->
+<core:FragmentDefinition xmlns:core='sap.ui.core' xmlns='sap.m'>
+	<!--  add your xml here -->
+	<Link id="link1"
+			text=""
+			press=".extension.customer.zehsm.task.defs1.var1.customController.handleLinkPress1" >
+     </Link>
+	 <Text id="text1" text="{zzinc_recommend_txt_tip}" ></Text>
+</core:FragmentDefinition>

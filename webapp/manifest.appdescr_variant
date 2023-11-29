@@ -1,0 +1,41 @@
+{
+  "fileName": "manifest",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "appdescr_variant",
+  "reference": "ehs.fnd.task.definitions1",
+  "id": "customer.zehsm.task.defs1.var1",
+  "namespace": "apps/ehs.fnd.task.definitions1/appVariants/customer.zehsm.task.defs1.var1/",
+  "content": [
+    {
+      "changeType": "appdescr_app_setTitle",
+      "content": {},
+      "texts": {
+        "i18n": "i18n/i18n.properties"
+      }
+    },
+    {
+      "changeType": "appdescr_ui5_addNewModelEnhanceWith",
+      "content": {
+        "modelId": "i18n|sap.suite.ui.generic.template.ListReport|C_EHSSimpleTaskDefinition"
+      },
+      "texts": {
+        "i18n": "i18n/ListReport/C_EHSSimpleTaskDefinition/i18n.properties"
+      }
+    },
+    {
+      "changeType": "appdescr_ui5_addNewModelEnhanceWith",
+      "content": {
+        "modelId": "i18n|sap.suite.ui.generic.template.ObjectPage|C_EHSSimpleTaskDefinition"
+      },
+      "texts": {
+        "i18n": "i18n/ObjectPage/C_EHSSimpleTaskDefinition/i18n.properties"
+      }
+    },
+    {
+      "changeType": "appdescr_ui5_setMinUI5Version",
+      "content": {
+        "minUI5Version": "1.96.6"
+      }
+    }
+  ]
+}

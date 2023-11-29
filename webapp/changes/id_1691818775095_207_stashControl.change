@@ -1,0 +1,33 @@
+{
+	"fileName": "id_1691818775095_207_stashControl",
+	"fileType": "change",
+	"changeType": "stashControl",
+	"moduleName": "",
+	"reference": "customer.zehsm.task.defs1.var1",
+	"packageName": "$TMP",
+	"content": {},
+	"selector": {
+		"id": "ehs.fnd.task.definitions1::sap.suite.ui.generic.template.ObjectPage.view.Details::C_EHSSimpleTaskDefinition--ReferencesInfo::Section",
+		"idIsLocal": false
+	},
+	"layer": "CUSTOMER_BASE",
+	"texts": {},
+	"namespace": "apps/ehs.fnd.task.definitions1/changes/",
+	"projectId": "customer.zehsm.task.defs1.var1",
+	"creation": "2023-08-12T05:39:36.837Z",
+	"originalLanguage": "EN",
+	"support": {
+		"generator": "sap.ui.rta.command",
+		"service": "",
+		"user": "",
+		"sapui5Version": "1.96.5",
+		"sourceChangeFileName": "",
+		"compositeCommand": "id_1691818775095_208_composite",
+		"command": "remove"
+	},
+	"oDataInformation": {},
+	"dependentSelector": {},
+	"jsOnly": false,
+	"variantReference": "",
+	"appDescriptorChange": false
+}

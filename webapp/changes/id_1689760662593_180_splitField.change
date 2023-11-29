@@ -1,0 +1,55 @@
+{
+	"fileName": "id_1689760662593_180_splitField",
+	"fileType": "change",
+	"changeType": "splitField",
+	"moduleName": "",
+	"reference": "customer.zehsm.task.defs1.var1",
+	"packageName": "$TMP",
+	"content": {
+		"newElementIds": [
+			"ehs.fnd.task.definitions1::sap.suite.ui.generic.template.ObjectPage.view.Details::C_EHSSimpleTaskDefinition--id-1689760662579-177",
+			"ehs.fnd.task.definitions1::sap.suite.ui.generic.template.ObjectPage.view.Details::C_EHSSimpleTaskDefinition--id-1689760662579-178"
+		],
+		"sourceSelector": {
+			"id": "ehs.fnd.task.definitions1::sap.suite.ui.generic.template.ObjectPage.view.Details::C_EHSSimpleTaskDefinition--RecommenSchedule::zzinc_recommend_txt::GroupElement",
+			"idIsLocal": false
+		},
+		"parentSelector": {
+			"id": "ehs.fnd.task.definitions1::sap.suite.ui.generic.template.ObjectPage.view.Details::C_EHSSimpleTaskDefinition--RecommenSchedule::FormGroup",
+			"idIsLocal": false
+		}
+	},
+	"selector": {
+		"id": "ehs.fnd.task.definitions1::sap.suite.ui.generic.template.ObjectPage.view.Details::C_EHSSimpleTaskDefinition--RecommenInfo::Form",
+		"idIsLocal": false
+	},
+	"layer": "CUSTOMER_BASE",
+	"texts": {},
+	"namespace": "apps/ehs.fnd.task.definitions1/changes/",
+	"projectId": "customer.zehsm.task.defs1.var1",
+	"creation": "2023-07-19T09:57:43.909Z",
+	"originalLanguage": "EN",
+	"support": {
+		"generator": "sap.ui.rta.command",
+		"service": "",
+		"user": "",
+		"sapui5Version": "1.96.5",
+		"sourceChangeFileName": "",
+		"compositeCommand": "",
+		"command": "split"
+	},
+	"oDataInformation": {},
+	"dependentSelector": {
+		"sourceControl": {
+			"id": "ehs.fnd.task.definitions1::sap.suite.ui.generic.template.ObjectPage.view.Details::C_EHSSimpleTaskDefinition--RecommenSchedule::zzinc_recommend_txt::GroupElement",
+			"idIsLocal": false
+		},
+		"parent": {
+			"id": "ehs.fnd.task.definitions1::sap.suite.ui.generic.template.ObjectPage.view.Details::C_EHSSimpleTaskDefinition--RecommenSchedule::FormGroup",
+			"idIsLocal": false
+		}
+	},
+	"jsOnly": false,
+	"variantReference": "",
+	"appDescriptorChange": false
+}

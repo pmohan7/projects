@@ -1,0 +1,37 @@
+{
+	"fileName": "id_1689760150356_194_addXML",
+	"fileType": "change",
+	"changeType": "addXML",
+	"moduleName": "customer/zehsm/task/defs1/var1/changes/fragments/Recommendations.fragment.xml",
+	"reference": "customer.zehsm.task.defs1.var1",
+	"packageName": "$TMP",
+	"content": {
+		"targetAggregation": "fields",
+		"index": 2,
+		"fragmentPath": "fragments/Recommendations.fragment.xml"
+	},
+	"selector": {
+		"id": "ehs.fnd.task.definitions1::sap.suite.ui.generic.template.ObjectPage.view.Details::C_EHSSimpleTaskDefinition--RecommenSchedule::zzinc_recommend_txt::GroupElement",
+		"idIsLocal": false
+	},
+	"layer": "CUSTOMER_BASE",
+	"texts": {},
+	"namespace": "apps/ehs.fnd.task.definitions1/changes/",
+	"projectId": "customer.zehsm.task.defs1.var1",
+	"creation": "2023-07-19T09:49:10.693Z",
+	"originalLanguage": "EN",
+	"support": {
+		"generator": "sap.ui.rta.command",
+		"service": "",
+		"user": "",
+		"sapui5Version": "1.96.5",
+		"sourceChangeFileName": "",
+		"compositeCommand": "",
+		"command": "addXML"
+	},
+	"oDataInformation": {},
+	"dependentSelector": {},
+	"jsOnly": false,
+	"variantReference": "",
+	"appDescriptorChange": false
+}
